@@ -1,0 +1,154 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.back-arrow {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    left: 0;
+}
+
+.sign-in-form {
+    background-color: #111419;
+    padding: 20px;
+    border-radius: 10px;
+    height: 896px;
+    width: 414px;
+    height: 600px;
+    top: 400px;
+    left: 361px;
+}
+
+.title {
+    margin-bottom: 20px;
+    color: #fff;
+    left: 0;
+    font-size: 20px;
+    font-weight: 450;
+    line-height: 24px;
+    text-align: left;
+    display: block;
+}
+
+.welcome-container {
+    color: #626E75;
+}
+
+
+.input-field {
+    position: relative;
+}
+
+.input-field i {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    color: gray;
+}
+
+.input-field input {
+    background-color: #202028;
+    color: white;
+    width: 366px;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 16px;
+    padding-left: 30px;
+    gap: 8px;
+    border: none;
+}
+
+.forgot-password {
+    width: 124px;
+    height: 20px;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-left: 290px;
+top: 418px;
+left: 262px;
+}
+
+
+
+
+
+.btn {
+    width: 100%;
+    height: 40px;
+    margin-top: 220px;
+    border-radius: 16px;
+    background-color: #202028;
+    color: white;
+    border: none;
+}
+
+.btn:hover {
+    background-color: #007bff;
+}
+
+
+
+.cta-section {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.cta-section button {
+    background-color: #202028;
+    line-height: 150%;
+    color: white;
+    width: 100%;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 16px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.cta-section button:hover {
+    background-color: blue;
+}
+
+
+
+.text {
+    color: #919699;
+    width: 252px;
+    height: 24px;
+    position: absolute;
+    bottom: 55px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: right;
+    margin-left: 150px;
+}
+
+@media screen and (max-width: 480px) {
+    .sign-in-form {
+        width: 80%;
+        height: auto;
+    }
+
+    .input-field input {
+        font-size: 14px;
+    }
+
+    .cta-section button {
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+}
